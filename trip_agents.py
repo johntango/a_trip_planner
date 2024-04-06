@@ -16,7 +16,7 @@ class TripAgents():
         'An expert in analyzing travel data to pick ideal destinations',
         tools=[
             SearchTools.search_internet,
-            BrowserTools.scrape_and_summarize_website,
+            #BrowserTools.scrape_and_summarize_website,
         ],
         verbose=True)
 
@@ -28,7 +28,7 @@ class TripAgents():
         about the city, it's attractions and customs""",
         tools=[
             SearchTools.search_internet,
-            BrowserTools.scrape_and_summarize_website,
+            #BrowserTools.scrape_and_summarize_website,
         ],
         verbose=True)
 
@@ -41,7 +41,7 @@ class TripAgents():
         decades of experience""",
         tools=[
             SearchTools.search_internet,
-            BrowserTools.scrape_and_summarize_website,
+            #BrowserTools.scrape_and_summarize_website,
             CalculatorTools.calculate,
         ],
         verbose=True)
